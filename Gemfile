@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 
 gem 'rails'
+gem 'nokogiri', '>= 1.15'
+gem 'net-ftp'
+gem 'mini_racer', platforms: :ruby
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git', "5.1.4"
@@ -31,7 +34,7 @@ end
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
-gem 'therubyracer'  # If using Ruby
+# gem 'therubyracer'  # If using Ruby
 gem 'jquery-rails'
 gem 'less-rails-bootstrap'#, '~> 3.0.0.wip', github: 'sinfin/less-rails-bootstrap-3'
 gem "font-awesome-rails"
